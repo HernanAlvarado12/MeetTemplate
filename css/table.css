@@ -1,43 +1,44 @@
 @media (min-width: 624px){
+    .main__div {
+        margin: 0 0 5rem 0;
+        align-self: center;
+    }
+
     .main__title {
         font-size: 7.8rem;
     }
 
-    .main__list {
+    .main__image--visible{ 
         visibility: visible;
     }
 
     .main__image-2 {
         width: 14rem;
-        top: -22%;
-        right: 2%;
+        top: -6%;
+        left: 75%;
     }
 
     .main__image-3 {
         width: 11rem;
-        top: -21rem;
-        right: calc(0% + 17%);
+        top: 41%;
+        left: 73%;
     }
 
     .main__image-4 {
-        width: 18rem;
-        top: calc(100% - 9rem);
-        right: 4rem;
+        width: 18rem; 
+        bottom: 10%;
+        right: 2%;
     }
 
     .main__image-5 {
         width: 9rem;
-        top: 16%;
-        right: 25%;
+        top: 10%;
+        right: 24%;
     }
 
     .main__image-6 {
         width: 9rem;
-        top: 29%;
+        top: 20%;
         right: 0;
-    }
-
-    .main__figure {
-        top: 8rem;
     }
 }

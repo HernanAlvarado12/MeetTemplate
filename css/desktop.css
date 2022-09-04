@@ -4,6 +4,7 @@
     }
 
     .main__container {
+        height: auto;
         margin-top: 2rem;
         grid-template-rows: max-content;
     }
@@ -20,27 +21,29 @@
 
     .main__image-2 {
         top: -5rem;
+        left: 85%;
     }
 
     .main__image-3 {
         bottom: -1rem;
-        right: 55%;
+        left: 56%;
     }
 
     .main__image-4 {
-        top: 75%;
+        bottom: 0;
     }
 
     .main__image-5 {
-        top: -6%;
+        top: -5%;
     }
 
     .main__image-6 {
-        top: 44%;
-        right: -7rem;
+        top: 40%;
+        right: -6rem;
     }
 
     .main__figure {
-        top: 3rem;
+        margin-top: 3rem;
+        position: relative;
     }
 }
