@@ -1,0 +1,46 @@
+@media (min-width: 995px){
+    .container--width {
+        width: 85%;
+    }
+
+    .main__container {
+        margin-top: 2rem;
+        grid-template-rows: max-content;
+    }
+
+    .main__title {
+        font-size: 12rem;
+    }
+
+    .main__image-1 {
+        width: 9rem;
+        top: -1rem;
+        left: -6.5rem;
+    }
+
+    .main__image-2 {
+        top: -5rem;
+    }
+
+    .main__image-3 {
+        bottom: -1rem;
+        right: 55%;
+    }
+
+    .main__image-4 {
+        top: 75%;
+    }
+
+    .main__image-5 {
+        top: -6%;
+    }
+
+    .main__image-6 {
+        top: 44%;
+        right: -7rem;
+    }
+
+    .main__figure {
+        top: 3rem;
+    }
+}

@@ -16,11 +16,11 @@ html {
 }
 
 .body__container {
+    max-width: 120rem;
     background-color: var(--blue);
 }
 
 .header__container {
-    width: 90%;
     height: 6rem;
 }
 
@@ -30,12 +30,15 @@ html {
 }
 
 .main__container {
-    width: 90%;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 7rem) max-content max-content max-content;
     position: relative;
+}
+
+.container--width {
+    width: 90%;
 }
 
 .element--margin-auto, .container--margin-auto {
